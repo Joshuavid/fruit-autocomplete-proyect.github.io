@@ -1,0 +1,158 @@
+* {
+  font-family: 'Poltawski Nowy', serif;
+}
+/*
+:focus {
+ / TODO /
+} */
+
+body {
+  background: linear-gradient(to left, rgb(43, 97, 192), rgb(130, 205, 255));
+  z-index: -10;
+}
+
+input {
+ /* TODO */
+ background-color: rgb(255, 255, 255);
+}
+
+.search-container {
+ /* TODO */
+ position: relative;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+  width: 100%;
+  padding: 10px 20px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: 2px solid hsla(196, 23%, 45%, 0.753);
+  border-radius: 4px;
+  font-size: 25px;
+}
+
+.search-container input {
+ /* TODO */
+ border-color:hsla(196, 23%, 45%, 0.753);
+}
+.search-container .suggestions {
+   /* TODO */
+   background-color: hsla(196, 23%, 45%, 0.753);
+   
+}
+
+/* ul {
+  /* TODO /
+
+}*/
+/* ul.has-suggestions {
+  /* TODO */
+/* } **/
+
+ul li {
+  /* TODO */
+  color: rgb(1, 1, 1);
+  padding: 10px 20px;
+  margin: 0px 0;
+}
+ul li:hover {
+  /* TODO */
+  color: rgb(255, 255, 255);
+  background-color:hsl(196, 52%, 60%);
+}
+
+input {
+   /* TODO */
+   font-size: 30px;
+}
+
+/* Bubles */
+.buble {
+  border-radius: 50%;
+  background: #03234b;
+  opacity: .3;
+
+  position: absolute;
+  bottom:-150px;
+  z-index: -5;
+
+  animation: bubles 3s linear infinite;
+}
+
+.buble:nth-child(1){
+  width: 80px;
+  height: 80px;
+  left: 5%;
+  animation-duration: 3s;
+  animation-delay: 3s;
+}
+
+.buble:nth-child(2){
+  width: 100px;
+  height: 100px;
+  left: 37%;
+  animation-duration: 4s;
+  animation-delay: 5s;
+}
+
+.buble:nth-child(3){
+  width: 40px;
+  height: 40px;
+  left: 26%;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
+
+.buble:nth-child(4){
+  width: 70px;
+  height: 70px;
+  left: 77%;
+  animation-duration: 7s;
+  animation-delay: 5s;
+}
+
+.buble:nth-child(5){
+  width: 45px;
+  height: 45px;
+  left: 62%;
+  animation-duration: 4s;
+  animation-delay: 4s;
+}
+
+.buble:nth-child(6){
+  width: 39px;
+  height: 39px;
+  left: 84%;
+  animation-duration: 3s;
+  animation-delay: 3s;
+}
+
+.buble:nth-child(7){
+  width: 70px;
+  height: 70px;
+  left: 55%;
+  animation-duration: 5s;
+  animation-delay: 3s;
+}
+
+@keyframes bubles {
+0%{
+  bottom: 0;
+  opacity: 0;
+}
+30%{
+  transform: translateX(30px);
+}
+50%{
+  opacity: .4;
+}
+100%{
+  bottom: 100vh;
+  opacity: 0;
+}
+
+}
