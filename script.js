@@ -1,3 +1,5 @@
+alert("Hello, I'm Joshua Hernandez, and this is a Springboard project aimed at implementing a search bar that provides suggestions based on what you type. Have a good day!                                                    Hola soy Joshua Hernandez y este es un proyecto de Springboard, trata de lograr implementar una barra de busqueda que extienda sugerencias deacuerdo con lo que escribas. Buen dia!!!")
+
 //Tomamos el input que tenga como clase #fruit - We take the input that has class #fruit.
 const input = document.querySelector('#fruit');
 //Tomamos los ul de el elemento div con el ID Suggestions - We take the ul elements from the div element with ID Suggestions.
