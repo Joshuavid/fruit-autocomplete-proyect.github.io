@@ -70,7 +70,7 @@ input {
    font-size: 30px;
 }
 
-/* Bubles */
+/* Bubles elements*/
 .buble {
   border-radius: 50%;
   background: #03234b;
@@ -139,6 +139,7 @@ input {
   animation-delay: 3s;
 }
 
+/* All the bubles */
 @keyframes bubles {
 0%{
   bottom: 0;
